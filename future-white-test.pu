@@ -1,0 +1,11 @@
+@startuml
+!theme future-white from .
+
+entity Client
+participant Backend
+participant Queue
+database RDB
+entity External
+
+@enduml
+
